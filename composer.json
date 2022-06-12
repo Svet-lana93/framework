@@ -1,0 +1,25 @@
+{
+    "name": "shmidt_student/logger",
+    "homepage": "https://github.com/Svet-lana93/framework",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Svetlana Shmidt",
+            "email": "svetashmidt93@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Shmidt\\Message\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias":{
+            "dev-master": "1.0.x-dev"
+        }
+    },
+    "version": "1.0.0"
+}
